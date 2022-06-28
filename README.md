@@ -1,2 +1,2 @@
-# pirmas-atsiskaitymas
+# HTML/CSS Exam
 Kristina Tarantovienė
