@@ -1,0 +1,317 @@
+body {
+display: block;
+background-color: #FFFFFF;
+font-family: 'Roboto', sans-serif;
+width: auto;
+padding: 40px 0px 0px 0px;
+margin: 0px 40px 0px 40px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  padding: 40px 0px 0px 0px;
+  margin: auto;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-right: 60px'
+}
+.burger-menu {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.pink {
+  color:#FF3998;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  font-size: medium;
+  width: 82px;
+  height: 20px;
+}
+
+.flex-container {
+display: block;
+align-items: center;
+size: 4fr 1fr 1fr 2fr 2fr 3fr;
+  }
+
+  h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #FF3998;
+  }
+
+  h1 {
+    font-weight: bolder;
+    font-weight:900;
+    font-size: 1.7cm;
+    margin-top: 7px;
+    margin-bottom: 60px;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-weight:900;
+    font-size: 0.9cm;
+    margin-top: 7px;
+  }
+p {
+    font-size: medium;
+    margin: 0%;
+}
+
+  .button {
+    background-color:#FFFFFF;
+    border: 4px solid;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: rgb(236, 86, 56) rgb(180, 209, 65) orange rgb(222, 119, 136);
+    border-style: ridge ;
+  }
+  .flex-item-1 {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  padding: auto;
+  margin: auto;
+  }
+
+
+  .flex-item-2 {
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("./background.svg"); 
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 250px;
+  padding-bottom: 0px;
+  border-radius: 20px;
+      }
+
+
+  h3 {
+    padding-top: 130px;
+    padding-left: 20px;
+  }
+
+  .text {
+    padding-left: 20px;
+  }
+
+  .flex-item-3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+  }
+  .logo-image {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+
+  .flex-item-4 {
+    display: block;
+    margin-bottom: 60px;
+}
+.super-text {
+  margin: 0;
+}
+
+.grid-item-5 {
+  display: flex;
+}
+
+.container {
+  overflow: auto;
+  white-space: nowrap;
+  
+  justify-content: space-around;
+}
+
+.div1 {
+  display: inline-block;
+  height: 450px;
+  width: 290px;
+  }
+
+.second {
+display: block;
+text-align: end;
+align-items: flex-end;
+font-size: medium;
+}
+
+.first {
+display: block;
+text-align: start;
+justify-items: flex-end;
+padding-top: 10px;
+font-size: medium;
+}
+
+.orange-color {
+  color: orange;
+}
+
+.grey-color {
+  color: grey;
+}
+
+.color-black {
+  color: black;
+}
+  
+
+.color {
+  padding-top: 10px;
+  }
+
+
+.under-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(210, 205, 205);
+  border: none;
+  border-radius: 0px 0px 20px 20px;
+  
+}
+.smallest {
+display: flex;
+justify-content: right;
+ }
+ 
+#color {
+  font-size: large;
+}
+
+p {
+  padding-top: 5px;
+}
+
+.tiny-one {
+  padding-right: 8px;
+}
+
+footer {
+display: block;
+ justify-content: center;
+  align-content: center;
+  width: auto;
+  padding: 80px 0px 40px 0px;
+  margin: auto;
+}
+
+.big1 {display: flex;
+justify-content: space-between;
+margin-bottom: 80px;
+}
+
+.last-info {display: flex;
+  justify-content: space-between;
+}
+
+.F1 {
+  align-items: center;
+}
+.F2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.F21 {
+  display: flex;
+  
+}
+
+.F22 {
+  display: flex;
+}
+
+
+.logo {
+  padding-bottom: 15px;
+
+}
+.grey-color {
+  padding-bottom: 5px;
+}
+
+.flex-item-6 {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid rgb(198, 187, 187);
+  border-bottom: 2px solid rgb(198, 187, 187);
+}
+
+
+
+.flex-item {
+  max-width: 100%;
+  width: 100%;
+}
+
+h6 {
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width: 768px) {
+  .burger-menu {
+    display: flex;
+  }
+  .navigation {
+      display: none;
+  }
+  .last-item {
+    display: none;
+  }
+  .big1 {
+    display: block;
+  }
+
+  .F2 {
+    display: block;
+  }
+
+  .logo-image-last {
+    display: none;
+  }
+
+.block1 {
+  display: block;
+}
+}
+
+
+
+
+
+
+  
